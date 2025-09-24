@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "justfabric",
+  "version": "${version}",
+  "name": "just.fabric",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "just.fabric.Example"
+    ]
+  },
+  "mixins": [
+    "Mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
